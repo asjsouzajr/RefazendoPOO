@@ -4,31 +4,35 @@ public class projetoPessoas {
 
 	public static void main(String[] args) {
 
-		Aluno p1 = new Aluno();
+		Aluno a1 = new Aluno();
 		Professor p2 = new Professor();
-		Funcionario p3 = new Funcionario();
-		Visitante p4 = new Visitante();
-		Bolsista p5 = new Bolsista();
+		Funcionario f3 = new Funcionario();
+		Visitante v4 = new Visitante();
+		Bolsista b5 = new Bolsista();
 
-		p1.setNome("Maria");
+		a1.setNome("Maria");
+		a1.setIdade(22);
+		a1.setSexo("fem");
+		a1.setCurso("Ciencia da Computacao");
+		a1.setMatricula(273487384);;
+		a1.fazerAniv();
 		p2.setNome("Claudio");
-		p3.setNome("Fabiana");
-		p4.setNome("José Ribeiro");
-		p5.setNome("Raimundo");
-		p5.setBolsa(100);
+		f3.setNome("Fabiana");
+		v4.setNome("José Ribeiro");
+		b5.setNome("Raimundo");
+		b5.setBolsa(100);
 
-		p1.setCurso("Informática");
 		p2.setSalario(2500.00);
-		p3.setSetor("Estoque");
+		f3.setSetor("Estoque");
 
 		p2.receberAumento(520.00);
-		p3.mudarTrabalho();
-		p1.cancelarMatr();
+		f3.mudarTrabalho();
+		a1.cancelarMatr();
 		
-		p1.pagarMensalidade();
-		p5.pagarMensalidade();
+		a1.pagarMensalidade();
+		b5.pagarMensalidade();
 
-		p1.exibirDados();
-		p4.exibirDados();
+		a1.exibirDados();
+		v4.exibirDados();
 	}
 }

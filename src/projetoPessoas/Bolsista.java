@@ -5,8 +5,9 @@ public class Bolsista extends Aluno {
 	public void renovarBolsa() {
 		System.out.println("Bolsa de Estudo Renovada!");
 	}
+	@Override 
 	public void pagarMensalidade() {
-		System.out.println("Mensalidade do mês paga com desconto de "+ this.bolsa+" Reais");
+		System.out.println("Mensalidade do mês paga de "+this.getNome()+" com desconto de "+ this.bolsa+" Reais");
 	}
 	public int getBolsa() {
 		return bolsa;

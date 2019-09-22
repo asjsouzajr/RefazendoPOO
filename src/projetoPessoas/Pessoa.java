@@ -6,7 +6,7 @@ package projetoPessoas;
 	private String sexo;
 
 	public final void fazerAniv() {
-		this.idade += 1;
+		this.idade ++;
 	}
 
 	public String getNome() {
