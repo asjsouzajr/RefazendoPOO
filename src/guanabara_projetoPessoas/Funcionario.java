@@ -1,4 +1,4 @@
-package projetoPessoas;
+package guanabara_projetoPessoas;
 
 public class Funcionario extends Pessoa {
 	private String setor;

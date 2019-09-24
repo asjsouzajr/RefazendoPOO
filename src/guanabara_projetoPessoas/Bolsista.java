@@ -1,4 +1,4 @@
-package projetoPessoas;
+package guanabara_projetoPessoas;
 
 public class Bolsista extends Aluno {
 	private int bolsa;

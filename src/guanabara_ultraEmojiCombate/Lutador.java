@@ -1,4 +1,4 @@
-package ultraEmojiCombate;
+package guanabara_ultraEmojiCombate;
 
 public class Lutador {
 	private String nome;

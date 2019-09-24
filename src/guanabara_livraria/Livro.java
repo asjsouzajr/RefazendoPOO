@@ -1,4 +1,4 @@
-package livraria;
+package guanabara_livraria;
 
 public class Livro implements Publicacao{
 	private String titulo;
@@ -51,9 +51,9 @@ public class Livro implements Publicacao{
 		this.aberto = aberto;
 	}
 	public void detalhes() {
-		System.out.println("Título do Livro "+this.getTitulo());
-		System.out.println("Autor "+this.getAutor());
-		System.out.println("Total de Páginas "+this.getPagAtual());
+		System.out.println("Título do Livro: "+this.getTitulo());
+		System.out.println("Autor: "+this.getAutor());
+		System.out.println("Total de Páginas: "+this.getPagAtual());
 		
 	}
 	@Override

@@ -1,4 +1,4 @@
-package projetoPessoas;
+package guanabara_projetoPessoas;
 
 public class Tecnico extends Aluno {
 	private int registroProf;

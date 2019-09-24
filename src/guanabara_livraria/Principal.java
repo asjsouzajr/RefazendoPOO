@@ -1,4 +1,4 @@
-package livraria;
+package guanabara_livraria;
 
 public class Principal   {
 	public static void main(String[] args) {

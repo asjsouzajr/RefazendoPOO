@@ -1,4 +1,4 @@
-package ultraEmojiCombate;
+package guanabara_ultraEmojiCombate;
 
 import java.util.Random;
 

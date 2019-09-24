@@ -1,4 +1,4 @@
-package projetoPessoas;
+package guanabara_projetoPessoas;
 
 public class Aluno extends Pessoa{
 	private int matricula;

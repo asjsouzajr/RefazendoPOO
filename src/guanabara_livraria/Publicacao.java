@@ -1,4 +1,4 @@
-package livraria;
+package guanabara_livraria;
 
 public interface Publicacao {
 	public void abrir();

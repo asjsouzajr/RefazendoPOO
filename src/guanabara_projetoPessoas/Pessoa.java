@@ -1,9 +1,13 @@
-package livraria;
+package guanabara_projetoPessoas;
 
-public class Pessoa {
+	public abstract class Pessoa {
 	private String nome;
 	private int idade;
 	private String sexo;
+
+	public final void fazerAniv() {
+		this.idade ++;
+	}
 
 	public String getNome() {
 		return nome;
@@ -28,16 +32,9 @@ public class Pessoa {
 	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
-
-	public void fazerAniversario() {
-		this.idade += 1;
-	}
-
-	public Pessoa(String nome, int idade, String sexo) {
-		super();
-		this.nome = nome;
-		this.idade = idade;
-		this.sexo = sexo;
+	
+	public void exibirDados() {
+		System.out.println("Nome: "+this.nome+" , Idade:"+this.idade+" , Sexo: "+this.sexo);
 	}
 
 }

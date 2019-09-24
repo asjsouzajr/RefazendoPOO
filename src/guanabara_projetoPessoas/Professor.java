@@ -1,4 +1,4 @@
-package projetoPessoas;
+package guanabara_projetoPessoas;
 
 public class Professor extends Pessoa{
 	private String especialidade;
