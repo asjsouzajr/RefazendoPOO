@@ -19,7 +19,6 @@ public abstract class Pessoa {
 		return "Pessoa [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + ", experiencia=" + experiencia + "]";
 	}
 
-
 	protected void ganharExp() {
 	}
 	public String getNome() {
