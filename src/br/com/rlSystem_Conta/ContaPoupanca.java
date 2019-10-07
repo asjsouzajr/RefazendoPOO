@@ -1,6 +1,6 @@
 package br.com.rlSystem_Conta;
 
-public class ContaPoupanca extends Conta {
+public final class ContaPoupanca extends Conta {
 	@Override
 	public void sacar(double valor) {
 		super.sacar(valor);
