@@ -2,14 +2,29 @@ package br.com.alura.banco;
 
 	import java.text.DecimalFormat;
 
-public class Conta {
+public class Conta implements Comparable<Conta>{
 		private double saldo;
 		private String titular;
 		private int agencia;
 		private int numero;
 
 		private static DecimalFormat df = new DecimalFormat("#.00");
+		
+		public Conta() {
+			super();
+		}
 
+		public Conta(double saldo) {
+			super();
+			this.saldo = saldo;
+		}
+
+
+
+		/**
+		 * Realiza um saque
+		 * @param valor a ser sacado.
+		 */
 		public void saca(double valor) {
 				if (valor <= this.saldo) {
 					this.saldo -= valor;
@@ -57,5 +72,16 @@ public class Conta {
 
 		public void setNumero(int numero) {
 			this.numero = numero;
+		}
+		@Override
+		public String toString() {
+		return "Conta com Saldo "+getSaldo();
+		}
+
+		@Override
+		public int compareTo(Conta outraConta) {
+			if(this.saldo < outraConta.saldo) return -1;
+			if(this.saldo > outraConta.saldo) return 1;
+			return 0;
 		}
 }
